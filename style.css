@@ -963,7 +963,7 @@ footer {
 		padding-bottom: 10px;
 		padding-top: 10px;
 		padding-left: 2%;
-		border-radius: none;
+		border-radius: 0;
 		background-color: white;
 	}
 	.hebergements_city img {
