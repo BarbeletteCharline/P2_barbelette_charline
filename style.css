@@ -32,7 +32,6 @@ body {
 h1 {
 	font-size: 20px;
 	font-weight: bold;
-	
 }
 
 h2 {
@@ -139,6 +138,7 @@ header {
 	color: #0065FC;
 	font-weight: 600;
 }
+
 
 /* MAIN */
 
@@ -347,7 +347,6 @@ tr {
 	width: 100%;
 }
 
-
 .hebergements_city {
 	height: 590px;
 	float: left;
@@ -419,7 +418,7 @@ tr {
 	float: left;
 	padding-bottom: 20px;
 	border: solid;
-	border-color:transparent;
+	border-color: transparent;
 	border-width: 4px;
 	background-color: white;
 	border-radius: 20px;
@@ -432,7 +431,7 @@ tr {
 	align-items: center;
 	padding-bottom: 20px;
 	border: solid;
-	border-color:transparent;
+	border-color: transparent;
 	border-width: 4px;
 	background-color: white;
 	border-radius: 20px;
@@ -505,7 +504,6 @@ aside {
 	border-radius: 20px;
 }
 
-
 .les_plus_populaires_logo {
 	position: relative;
 }
@@ -520,14 +518,12 @@ aside {
 .aside .caption {
 	display: flex;
 	flex-direction: column;
-	align-items:flex-start;
-	justify-content:stretch;
+	align-items: flex-start;
+	justify-content: stretch;
 	color: black;
 	margin-left: 0.8em;
 	line-height: 25px;
 }
-
-
 
 .aside_1,
 .aside_2,
@@ -542,7 +538,9 @@ aside {
 	margin-bottom: 10px;
 }
 
-#hebergement_td1, #hebergement_td2, #hebergement_td3 {
+#hebergement_td1,
+#hebergement_td2,
+#hebergement_td3 {
 	width: 50%;
 }
 
@@ -744,7 +742,6 @@ footer {
 		font-size: small;
 		font-weight: normal;
 	}
-
 	html {
 		margin: 0;
 		max-width: 1024px;
@@ -806,11 +803,9 @@ footer {
 		line-height: 35px;
 		width: 100%;
 	}
-
 	td {
 		width: 55%;
 	}
-
 	.aside_1 {
 		grid-column: 1;
 		grid-row: 2;
@@ -887,8 +882,6 @@ footer {
 		font-size: small;
 		font-weight: bold;
 	}
-
-
 	html,
 	body {
 		max-width: 850px;
@@ -898,7 +891,6 @@ footer {
 		grid-template-columns: 0.5fr 1fr auto auto auto auto;
 		grid-template-areas: "logo . button" "navbar navbar navbar";
 	}
-
 	.nav-link {
 		border-top: none;
 		border-bottom: 3px solid #F2F2F2;
@@ -911,13 +903,11 @@ footer {
 		text-decoration: none;
 		font-weight: bold;
 	}
-
-	.nav-wrap	{
+	.nav-wrap {
 		flex-direction: row;
-		align-content:stretch;
+		align-content: stretch;
 		font-size: small;
 	}
-
 	#filter {
 		font-size: 1em;
 		align-items: flex-end;
@@ -997,7 +987,7 @@ footer {
 	.hotelsTab {
 		width: 100%;
 		grid-template-rows: repeat(6, auto);
-		grid-template-columns: repeat(1,95%);
+		grid-template-columns: repeat(1, 95%);
 		gap: 2%;
 	}
 	.heberg1 {
@@ -1050,11 +1040,9 @@ footer {
 		padding-bottom: 20px;
 		padding-left: 10px;
 	}
-
 	td {
 		width: 60%;
 	}
-
 	.les_plus_populaires_logo {
 		grid-column: 1;
 		grid-row: 1;
@@ -1063,22 +1051,19 @@ footer {
 	.aside .caption {
 		flex-direction: column;
 		flex-wrap: wrap;
-		align-content:flex-start;
-		justify-content:space;
+		align-content: center;
+		justify-content: center;
 		margin-left: 0.1em;
 		width: 100%;
-		line-height: 23px;
+		line-height: 25px;
 	}
-	.stars	{
+	.stars {
 		display: flex;
 	}
-
 	.aside img {
 		width: 100%;
 		height: 180px;
 	}
-
-
 	.aside_1 {
 		grid-column: 1;
 		grid-row: 2;
@@ -1087,7 +1072,6 @@ footer {
 		border-width: 3px;
 		margin-right: 10px;
 	}
-
 	.aside_2 {
 		grid-column: 1;
 		grid-row: 3;
@@ -1096,7 +1080,6 @@ footer {
 		margin-top: 20px;
 		margin-right: 10px;
 	}
-
 	.aside_3 {
 		grid-column: 1;
 		grid-row: 4;
@@ -1105,7 +1088,6 @@ footer {
 		margin-top: 20px;
 		margin-right: 10px;
 	}
-
 	.Activity_city {
 		display: inline;
 		width: 100%;
@@ -1116,7 +1098,6 @@ footer {
 		padding-top: 15px;
 		padding-left: 0px;
 	}
-
 	.activities {
 		grid-template-columns: repeat(1, auto);
 		grid-auto-rows: auto;
@@ -1124,53 +1105,44 @@ footer {
 		row-gap: 1%;
 		padding-right: 0;
 	}
-
 	.activity_text {
 		height: 60px;
 		display: inline;
 	}
-
 	.activities img {
 		height: 150px;
 	}
-
 	.activity1 {
 		grid-column: 1/3;
 		grid-row: 1;
 		height: 150px;
 	}
-
 	.activity2 {
 		grid-column: 1/3;
 		grid-row: 2;
 		height: 150px;
 	}
-
 	.activity3 {
 		grid-column: 1/3;
 		grid-row: 3;
 		height: 150px;
 		margin-top: 0px;
 	}
-
 	.activity4 {
 		grid-column: 1/3;
 		grid-row: 4;
 		height: 150px;
 	}
-
 	.activity5 {
 		grid-column: 1/3;
 		grid-row: 5;
 		height: 150px;
 	}
-
 	.activity6 {
 		grid-column: 1/3;
 		grid-row: 6;
 		height: 150px;
 	}
-
 	footer {
 		grid-template-columns: repeat(1, 100%);
 		height: auto;
@@ -1183,16 +1155,13 @@ footer {
 		justify-content: flex-start;
 		margin-top: 100px;
 	}
-
 	.A_propos {
 		grid-column: 1;
 	}
-
 	.Nos_hébergements {
 		grid-column: 1;
 		grid-row: 2;
 	}
-
 	.Assistance {
 		grid-column: 1;
 		grid-row: 3;
