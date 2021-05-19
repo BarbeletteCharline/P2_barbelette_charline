@@ -136,9 +136,7 @@ header {
 	font-weight: 600;
 	color: #0065FC;
 }
-a.headerSignup:link, a.headerSignup:visited {
-	color: #0065FC;
-}
+
 
 
 /* MAIN */
@@ -297,6 +295,13 @@ a:link {
 	font-weight: bold;
 }
 
+a:visited {
+	color: #000;
+}
+
+a.headerSignup:link, a.headerSignup:visited {
+	color: #0065FC;
+}
 
 .title-search-filter {
 	padding: 0rem 0.75rem;
